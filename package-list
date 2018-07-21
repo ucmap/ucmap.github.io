@@ -1,15 +1,1 @@
-cn.creable.arrow
-cn.creable.cosmetic
-cn.creable.gridgis.controls
-cn.creable.gridgis.display
-cn.creable.gridgis.geodatabase
-cn.creable.gridgis.geometry
-cn.creable.gridgis.gridMap
-cn.creable.gridgis.indexing
-cn.creable.gridgis.mapLayer
-cn.creable.gridgis.shapefile
-cn.creable.gridgis.spatialReference
-cn.creable.gridgis.util
-cn.creable.so
-cn.creable.topology
-cn.creable.ucmap
+cn.creable.ucmap.openGIS

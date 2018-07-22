@@ -170,7 +170,7 @@
                     <div class="content">
                         <h3 class="title">高性能</h3>
                         <p>UCMap具有非常卓越的客户端渲染能力,对于栅格数据可以无限量支持,对于矢量数据 10万级记录 毫秒级渲染。</p>
-                        <button class="modal-trigger btn btn-link" data-toggle="modal" data-target="#feature-modal-1">更多性能参数</button>
+                        <button class="modal-trigger btn btn-link" data-toggle="modal" data-target="#feature-modal-2">更多性能参数</button>
                     </div>
                     <!--//content-->
                 </div>
@@ -183,7 +183,7 @@
                     <div class="content">
                         <h3 class="title">空间分析</h3>
                         <p>UCMap不仅仅是显示,同时支持基于空间算法的空间数据分析、空间查询、路径规划等常用的GIS分析特性</p>
-                        <button class="modal-trigger btn btn-link" data-toggle="modal" data-target="#feature-modal-1">更多细节</button>
+                        <button class="modal-trigger btn btn-link" data-toggle="modal" data-target="#feature-modal-3">更多细节</button>
                     </div>
                     <!--//content-->
                 </div>
@@ -196,7 +196,7 @@
                     <div class="content">
                         <h3 class="title">可扩展性</h3>
                         <p>UCMap提供了强大的空间数据处理能力的同时也提供了很多自定义扩展的接口,开发者可以基于此扩展出更多个性的应用及服务。</p>
-                        <button class="modal-trigger btn btn-link" data-toggle="modal" data-target="#feature-modal-1">关于扩展</button>
+                        <button class="modal-trigger btn btn-link" data-toggle="modal" data-target="#feature-modal-4">关于扩展</button>
                     </div>
                     <!--//content-->
                 </div>
@@ -700,43 +700,343 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 id="featureModalLabel-1" class="modal-title text-center">App Feature and Benefit</h4>
+                    <h4 id="featureModalLabel-1" class="modal-title text-center">数据格式支持一览</h4>
                 </div>
                 <div class="modal-body">
                     <div class="row">
-                        <figure class="figure col-md-6 col-sm-12 col-xs-12">
-                            <img class="img-responsive img-rounded" src="assets/images/features/feature-figure-1.png" alt="" />
-                            <figcaption class="caption">Figure caption goes here </figcaption>
-                        </figure>
-                        <div class="content col-md-6 col-sm-12 col-xs-12">
-                            <p>You can use the modal to explain one of your app's features/benefits in details. Lorem ipsum
-                                dolor sit amet, consectetuer adipiscing elit. </p>
-                            <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis
-                                pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. </p>
-                            <ul class="list-unstyled">
-                                <li>
-                                    <i class="fa fa-star"></i>Lorem ipsum dolor sit ame</li>
-                                <li>
-                                    <i class="fa fa-star"></i>Curabitur elit elit</li>
-                                <li>
-                                    <i class="fa fa-star"></i>Nunc tincidunt ipsum a risus</li>
-                            </ul>
-                            <p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-                                enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
-                            <blockquote class="quote">
-                                <p>
-                                    <i class="fa fa-quote-left"></i>I love this magna pellentesque in magnis gravida sit augue felis vehicula vestibulum
-                                    semper penatibus justo ornare semper Gravida felis platea arcu mus non. Montes at posuere.
-                                    Natoque.
-                                </p>
-                                <p class="people">
-                                    <span class="name">Adam Lee</span>
-                                    <br>
-                                    <span class="title">Developer, AppHunt</span>
-                                </p>
-                            </blockquote>
-                        </div>
-                        <!--//content-->
+                        
+                       <table class="table table-bordered table-striped">
+                           <thead>
+                               <th>
+                                   数据格式
+                               </th>
+                               <th>
+                                OpenGL版
+                            </th>
+                            <th>
+                                Skia版
+                            </th>
+                            <th>
+                                备注
+                            </th>
+                           </thead>
+                           <tbody>
+                               <tr>
+                                   <td>常见栅格格式:Erdas Image、GeoTiff、png、jpg、jpeg等</td>
+                                   <td>支持</td>
+                                   <td>支持</td>
+                                   <td>数据量大时需要通过RasterMaker转换</td>
+                               </tr>
+                               <tr>
+                                <td>mbtiles瓦片</td>
+                                <td>支持</td>
+                                <td>支持</td>
+                                <td>仅支持Web墨卡托和WGS84,更多参考<a href="http://www.gdal.org/frmt_mbtiles.html">MBTiles</a></td>
+                            </tr>
+                            <tr>
+                                <td>ArcGIS tpk</td>
+                                <td>支持</td>
+                                <td>支持</td>
+                                <td>需要配置工具转换</td>
+                            </tr>
+                            <tr>
+                                <td>OGC WMTS</td>
+                                <td>支持</td>
+                                <td>支持</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>OGC WMS</td>
+                                <td>不支持</td>
+                                <td>支持</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>ESRI ShapeFile</td>
+                                <td>支持</td>
+                                <td>支持</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>JavaScript GeoJson</td>
+                                <td>支持</td>
+                                <td>支持</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>gpx</td>
+                                <td>支持</td>
+                                <td>支持</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>OGC WFS</td>
+                                <td>支持</td>
+                                <td>支持</td>
+                                <td></td>
+                            </tr>
+                           
+                            <tr>
+                                <td>矢量瓦片</td>
+                                <td>支持</td>
+                                <td>不支持</td>
+                                <td>瓦片标准未知</td>
+                            </tr>
+                            <tr>
+                                <td>google在线地图</td>
+                                <td>支持</td>
+                                <td>支持</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>天地图在线地图</td>
+                                <td>支持</td>
+                                <td>支持</td>
+                                <td></td>
+                            </tr>
+                                
+                            </tr>
+                           </tbody>
+                       </table>
+                    </div>
+                    <!--//row-->
+                </div>
+                <!--//modal-body-->
+            </div>
+            <!--//modal-content-->
+        </div>
+        <!--//modal-dialog-->
+    </div>
+    <div class="modal modal-feature" id="feature-modal-2" tabindex="-1" role="dialog" aria-labelledby="featureModalLabel-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 id="featureModalLabel-1" class="modal-title text-center">性能测试参考参数</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        
+                       <table class="table table-bordered table-striped">
+                           <thead>
+                               <th>
+                                   测试数据
+                               </th>
+                               <th>
+                                OpenGL版
+                            </th>
+                            <th>
+                                Skia版
+                            </th>
+                            <th>
+                                备注
+                            </th>
+                           </thead>
+                           <tbody>
+                               <tr>
+                                   <td>栅格/瓦片</td>
+                                   <td>毫秒级</td>
+                                   <td>毫秒级</td>
+                                   <td></td>
+                               </tr>
+                               <tr>
+                                <td>ESRI ShapeFile 1000条点记录</td>
+                                <td>毫秒级</td>
+                                <td>毫秒级</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>ESRI ShapeFile 10,000条面记录</td>
+                                <td>秒级</td>
+                                <td>毫秒级</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>ESRI ShapeFile 1000,000条面记录</td>
+                                <td>--</td>
+                                <td>秒级</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>OGC WMS</td>
+                                <td>毫秒级</td>
+                                <td>毫秒级</td>
+                                <td>取决网络状况</td>
+                            </tr>
+                            
+                              
+                                
+                           
+                           </tbody>
+                       </table>
+                    </div>
+                    <!--//row-->
+                </div>
+                <!--//modal-body-->
+            </div>
+            <!--//modal-content-->
+        </div>
+        <!--//modal-dialog-->
+    </div>
+    <div class="modal modal-feature" id="feature-modal-3" tabindex="-1" role="dialog" aria-labelledby="featureModalLabel-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 id="featureModalLabel-1" class="modal-title text-center">支持的空间计算</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        
+                       <table class="table table-bordered table-striped">
+                           <thead>
+                               <th>
+                                   分析方法
+                               </th>
+                               <th>
+                                OpenGL版
+                            </th>
+                            <th>
+                                Skia版
+                            </th>
+                            <th>
+                                备注
+                            </th>
+                           </thead>
+                           <tbody>
+                               <tr>
+                                   <td>路径分析</td>
+                                   <td>支持</td>
+                                <td>支持</td>
+                                <td></td>
+                               </tr>
+                               <tr>
+                                <td>Equals</td>
+                                <td>支持</td>
+                                <td>支持</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Disjoint</td>
+                                <td>支持</td>
+                                <td>支持</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Touches</td>
+                                <td>支持</td>
+                                <td>支持</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Within</td>
+                                <td>支持</td>
+                                <td>支持</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Overlaps</td>
+                                <td>支持</td>
+                                <td>支持</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Crosses</td>
+                                <td>支持</td>
+                                <td>支持</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Intersects</td>
+                                <td>支持</td>
+                                <td>支持</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Contains</td>
+                                <td>支持</td>
+                                <td>支持</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>DWithin</td>
+                                <td>支持</td>
+                                <td>支持</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Beyond</td>
+                                <td>支持</td>
+                                <td>支持</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>BBOX</td>
+                                <td>支持</td>
+                                <td>支持</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Buffer</td>
+                                <td>支持</td>
+                                <td>支持</td>
+                                <td></td>
+                            </tr> <tr>
+                                <td>Convex Hull</td>
+                                <td>支持</td>
+                                <td>支持</td>
+                                <td></td>
+                            </tr>
+                                
+                           
+                           </tbody>
+                       </table>
+                    </div>
+                    <!--//row-->
+                </div>
+                <!--//modal-body-->
+            </div>
+            <!--//modal-content-->
+        </div>
+        <!--//modal-dialog-->
+    </div>
+    <div class="modal modal-feature" id="feature-modal-4" tabindex="-1" role="dialog" aria-labelledby="featureModalLabel-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 id="featureModalLabel-1" class="modal-title text-center">可扩展接口</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        
+                       <table class="table table-bordered table-striped">
+                           <thead>
+                               <th>
+                                   可扩展接口
+                               </th>
+                               <th>
+                                OpenGL版
+                            </th>
+                            <th>
+                                Skia版
+                            </th>
+                            <th>
+                                备注
+                            </th>
+                           </thead>
+                           <tbody>
+                               <tr>
+                                   <td>---</td>
+                                   <td>---</td>
+                                <td>---</td>
+                                <td></td>
+                               </tr>
+                               
+                                
+                           
+                           </tbody>
+                       </table>
                     </div>
                     <!--//row-->
                 </div>

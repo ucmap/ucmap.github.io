@@ -1,7 +1,10 @@
 ﻿<!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+
 <head>
     <title>UCMap-高性能移动端地图组件</title>
     <!-- Meta -->
@@ -9,35 +12,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
-    <meta name="author" content="">    
-    <link rel="shortcut icon" href="favicon.ico">  
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="favicon.ico">
     <!---<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Covered+By+Your+Grace' rel='stylesheet' type='text/css'>  --->
     <!-- Global CSS -->
     <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
-    <!-- Plugins CSS -->    
+    <!-- Plugins CSS -->
     <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
     <link rel="stylesheet" href="assets/plugins/flexslider/flexslider.css">
     <link rel="stylesheet" href="assets/plugins/animate-css/animate.min.css">
-    <!-- Theme CSS -->  
+    <!-- Theme CSS -->
     <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-</head> 
+</head>
 
 <body data-spy="scroll">
-    <!-- ******HEADER****** --> 
-    <header id="top" class="header navbar-fixed-top">  
-        <div class="container">            
+    <!-- ******HEADER****** -->
+    <header id="top" class="header navbar-fixed-top">
+        <div class="container">
             <h1 class="logo pull-left">
                 <a class="scrollto" href="#promo">
                     <img id="logo-image" class="logo-image" src="assets/images/logo/logo.png" alt="Logo">
                     <span class="logo-title">UCMap</span>
                 </a>
-            </h1><!--//logo-->              
+            </h1>
+            <!--//logo-->
             <nav id="main-nav" class="main-nav navbar-right" role="navigation">
                 <div class="navbar-header">
                     <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse">
@@ -45,29 +49,49 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
-                    </button><!--//nav-toggle-->
-                </div><!--//navbar-header-->            
+                    </button>
+                    <!--//nav-toggle-->
+                </div>
+                <!--//navbar-header-->
                 <div class="navbar-collapse collapse" id="navbar-collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active nav-item sr-only"><a class="scrollto" href="#promo">Home</a></li>
-                        <li class="nav-item"><a class="scrollto" href="#features">产品</a></li>
-                        <li class="nav-item"><a class="scrollto" href="#how">行业案例</a></li>
-                        <li class="nav-item"><a class="scrollto" href="docs\OpenGIS\index.html" target="_blank">开发文档</a></li>
-                        <li class="nav-item"><a class="scrollto" href="#story">关于我们</a></li>
-                        <li class="nav-item"><a class="scrollto" href="#pricing">购买</a></li>
-                        <li class="nav-item last"><a class="scrollto" href="#contact">技术论坛</a></li>
-                    </ul><!--//nav-->
-                </div><!--//navabr-collapse-->
-            </nav><!--//main-nav-->           
+                        <li class="active nav-item sr-only">
+                            <a class="scrollto" href="#promo">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="scrollto" href="#features">产品</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="scrollto" href="#how">行业案例</a>
+                        </li>
+                        <li class="nav-item">
+                            <a  href="docs\OpenGIS\index.html" target="_blank">开发文档</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="scrollto" href="#story">关于我们</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="scrollto" href="#pricing">购买</a>
+                        </li>
+                        <li class="nav-item last">
+                            <a class="scrollto" href="#contact">技术论坛</a>
+                        </li>
+                    </ul>
+                    <!--//nav-->
+                </div>
+                <!--//navabr-collapse-->
+            </nav>
+            <!--//main-nav-->
         </div>
-    </header><!--//header-->
-    
-    <!-- ******PROMO****** --> 
+    </header>
+    <!--//header-->
+
+    <!-- ******PROMO****** -->
     <section id="promo" class="promo section offset-header has-pattern">
         <div class="container">
             <div class="row">
                 <div class="overview col-md-8 col-sm-12 col-xs-12">
-                    <h2 class="title">UCMap—— 高性能移动端地图组件</h2>
+                    <h2 class="title">UCMap— 高性能移动端地图组件</h2>
                     <ul class="summary">
                         <li>UCMap是一款高性能的移动端地图组件</li>
                         <li>同时具备矢量数据、栅格数据高性能客户端渲染能力</li>
@@ -76,13 +100,18 @@
                     </ul>
                     <div class="download-area">
                         <ul class="btn-group list-inline">
-                            <li class="ios-btn"><a href="#">Download from the App Store</a></li>
-                            <li class="android-btn"><a href="#">Get it from Google Play</a></li>
+                            <li class="ios-btn">
+                                    <a href="docs\UcmapforAndroid\index.html">Download from the App Store</a>
+                            </li>
+                            <li class="android-btn">
+                                    <a href="docs\OpenGIS\index.html">Download from the App Store</a>
+                            </li>
                         </ul>
-                        
+
                     </div>
-                </div><!--//overview-->
-                
+                </div>
+                <!--//overview-->
+
                 <!--// iPhone starts -->
                 <div class="phone iphone iphone-black col-md-4 col-sm-12 col-xs-12 ">
                     <div class="iphone-holder phone-holder">
@@ -90,169 +119,226 @@
                             <div class="slider flexslider">
                                 <ul class="slides">
                                     <li>
-                                        <img src="assets/images/iphone/iphone-slide-1.png"  alt="" />
+                                        <img src="assets/images/iphone/iphone-slide-1.png" alt="" />
                                     </li>
                                     <li>
-                                        <img src="assets/images/iphone/iphone-slide-2.png"  alt="" />
+                                        <img src="assets/images/iphone/iphone-slide-2.png" alt="" />
                                     </li>
                                     <li>
-                                        <img src="assets/images/iphone/iphone-slide-3.png"  alt="" />
+                                        <img src="assets/images/iphone/iphone-slide-3.png" alt="" />
                                     </li>
-                                </ul><!--//slides-->
-                            </div><!--//flexslider-->   
-                        </div><!--//iphone-holder-inner-->                    
-                    </div><!--//iphone-holder-->                   
-                </div><!--//iphone-->  
-                <!--// iPhone ends -->                                           
-            </div><!--//row-->
-        </div><!--//container-->
-    </section><!--//promo-->
-    <div class="tlinks">Collect from <a href="http://www.cssmoban.com/" >网页模板</a></div>
-    
-    <!-- ******FEATURES****** --> 
+                                </ul>
+                                <!--//slides-->
+                            </div>
+                            <!--//flexslider-->
+                        </div>
+                        <!--//iphone-holder-inner-->
+                    </div>
+                    <!--//iphone-holder-->
+                </div>
+                <!--//iphone-->
+                <!--// iPhone ends -->
+            </div>
+            <!--//row-->
+        </div>
+        <!--//container-->
+    </section>
+    <!--//promo-->
+    <!--<div class="tlinks">Collect from <a href="http://www.cssmoban.com/" >网页模板</a></div> -->
+
+    <!-- ******FEATURES****** -->
     <section id="features" class="features section">
         <div class="container">
             <div class="row">
                 <h2 class="title text-center sr-only">Features</h2>
                 <div class="item col-md-3 col-sm-6 col-xs-12 text-center">
                     <div class="icon">
-                        <i class="fa fa-cloud-upload"></i>                
-                    </div><!--//icon-->
+                        <i class="fa fa-cloud-upload"></i>
+                    </div>
+                    <!--//icon-->
                     <div class="content">
-                        <h3 class="title">App Feature One</h3>
-                        <p>Outline an app feature/benefit here. You can change the icon above to any of the 500+FontAwesome icons available. </p>  
-                        <button class="modal-trigger btn btn-link" data-toggle="modal" data-target="#feature-modal-1">Find out more</button>
-                    </div><!--//content-->               
-                </div><!--//item-->
+                        <h3 class="title">数据源支持</h3>
+                        <p>UCMap 支持市面上常见的栅格数据如tiff、img等,同时支持shapefile主流矢量格式,还包括OGC标准的各类地图服务</p>
+                        <button class="modal-trigger btn btn-link" data-toggle="modal" data-target="#feature-modal-1">支持格式详情</button>
+                    </div>
+                    <!--//content-->
+                </div>
+                <!--//item-->
                 <div class="item col-md-3 col-sm-6 col-xs-12 text-center">
                     <div class="icon">
-                        <i class="fa fa-rocket"></i>                
-                    </div><!--//icon-->
+                        <i class="fa fa-rocket"></i>
+                    </div>
+                    <!--//icon-->
                     <div class="content">
-                        <h3 class="title">App Feature Two</h3>
-                        <p>Outline an app feature/benefit here. You can change the icon above to any of the 500+FontAwesome icons available. </p>   
-                        <button class="modal-trigger btn btn-link" data-toggle="modal" data-target="#feature-modal-1">Find out more</button>
-                    </div><!--//content-->               
-                </div><!--//item-->
+                        <h3 class="title">高性能</h3>
+                        <p>UCMap具有非常卓越的客户端渲染能力,对于栅格数据可以无限量支持,对于矢量数据 10万级记录 毫秒级渲染。</p>
+                        <button class="modal-trigger btn btn-link" data-toggle="modal" data-target="#feature-modal-1">更多性能参数</button>
+                    </div>
+                    <!--//content-->
+                </div>
+                <!--//item-->
                 <div class="item col-md-3 col-sm-6 col-xs-12 text-center">
                     <div class="icon">
-                        <i class="fa fa-users"></i>                
-                    </div><!--//icon-->
+                        <i class="fa fa-users"></i>
+                    </div>
+                    <!--//icon-->
                     <div class="content">
-                        <h3 class="title">App Feature Three</h3>
-                        <p>Outline an app feature/benefit here. You can change the icon above to any of the 500+FontAwesome icons available. </p> 
-                        <button class="modal-trigger btn btn-link" data-toggle="modal" data-target="#feature-modal-1">Find out more</button>  
-                    </div><!--//content-->               
-                </div><!--//item-->
+                        <h3 class="title">空间分析</h3>
+                        <p>UCMap不仅仅是显示,同时支持基于空间算法的空间数据分析、空间查询、路径规划等常用的GIS分析特性</p>
+                        <button class="modal-trigger btn btn-link" data-toggle="modal" data-target="#feature-modal-1">更多细节</button>
+                    </div>
+                    <!--//content-->
+                </div>
+                <!--//item-->
                 <div class="item col-md-3 col-sm-6 col-xs-12 text-center">
                     <div class="icon">
-                        <i class="fa fa-map-marker"></i>                
-                    </div><!--//icon-->
+                        <i class="fa fa-map-marker"></i>
+                    </div>
+                    <!--//icon-->
                     <div class="content">
-                        <h3 class="title">App Feature Four</h3>
-                        <p>Outline an app feature/benefit here. You can change the icon above to any of the 500+ available. </p>   
-                        <button class="modal-trigger btn btn-link" data-toggle="modal" data-target="#feature-modal-1">Find out more</button>
-                    </div><!--//content-->               
-                </div><!--//item-->
-            </div><!--//row-->
-            
-            <div class="row feature-row-last">
-                <div class="item col-md-3 col-sm-6 col-xs-12 text-center">
-                    <div class="icon">
-                        <i class="fa fa-calendar"></i>                
-                    </div><!--//icon-->
-                    <div class="content">
-                        <h3 class="title">App Feature One</h3>
-                        <p>Outline an app feature/benefit here. You can change the icon above to any of the 500+available. </p>  
-                        <button class="modal-trigger btn btn-link" data-toggle="modal" data-target="#feature-modal-1">Find out more</button>
-                    </div><!--//content-->               
-                </div><!--//item-->
-                <div class="item col-md-3 col-sm-6 col-xs-12 text-center">
-                    <div class="icon">
-                        <i class="fa fa-comments"></i>                
-                    </div><!--//icon-->
-                    <div class="content">
-                        <h3 class="title">App Feature Two</h3>
-                        <p>Outline an app feature/benefit. You can change the icon above to any of the 500+available. </p>  
-                        <button class="modal-trigger btn btn-link" data-toggle="modal" data-target="#feature-modal-1">Find out more</button>
-                    </div><!--//content-->               
-                </div><!--//item-->
-                <div class="item col-md-3 col-sm-6 col-xs-12 text-center">
-                    <div class="icon">
-                        <i class="fa fa-globe"></i>
-                    </div><!--//icon-->
-                    <div class="content">
-                        <h3 class="title">App Feature Three</h3>
-                        <p>Outline an app feature/benefit here. You can change the icon above to any of the 500+available. </p> 
-                        <button class="modal-trigger btn btn-link" data-toggle="modal" data-target="#feature-modal-1">Find out more</button>  
-                    </div><!--//content-->               
-                </div><!--//item-->
-                <div class="item col-md-3 col-sm-6 col-xs-12 text-center">
-                    <div class="icon">
-                        <i class="fa fa-globe"></i>
-                    </div><!--//icon-->
-                    <div class="content">
-                        <h3 class="title">App Feature Three</h3>
-                        <p>Outline an app feature/benefit here. You can change the icon above to any of the 500+available. </p> 
-                        <button class="modal-trigger btn btn-link" data-toggle="modal" data-target="#feature-modal-1">Find out more</button>  
-                    </div><!--//content-->               
-                </div><!--//item-->
-            </div><!--//row-->
-        </div><!--//container-->
-    </section><!--//features-->
-    
-    
-    
-    <!-- ******FAQ****** --> 
-    <section id="faq" class="faq section">
+                        <h3 class="title">可扩展性</h3>
+                        <p>UCMap提供了强大的空间数据处理能力的同时也提供了很多自定义扩展的接口,开发者可以基于此扩展出更多个性的应用及服务。</p>
+                        <button class="modal-trigger btn btn-link" data-toggle="modal" data-target="#feature-modal-1">关于扩展</button>
+                    </div>
+                    <!--//content-->
+                </div>
+                <!--//item-->
+            </div>
+            <!--//row-->
+
+
+        </div>
+        <!--//container-->
+    </section>
+    <!--//features-->
+
+
+
+    <!-- ******FAQ****** -->
+    <section id="compare" class="story section">
         <div class="container">
             <div class="row">
-                <h2 class="title text-center">为什么选择UCMap</h2>
-                <div class="faq-col col-md-6 col-sm-6 col-xs-12">
-                    <div class="item">
-                        <h3 class="question"><i class="fa fa-question-circle"></i>How can I  ipsum dolor sit amet?</h3>
-                        <p class="answer">Proin scelerisque magna ac eros aliquam aliquam id in lacus. Morbi quam tortor, consequat at orci non, vulputate volutpat libero. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean sagittis laoreet urna eu ornare. Aenean tempor, leo vel eleifend porttitor, nibh libero ultricies est, sit amet ultricies magna enim et turpis. Donec aliquam velit eu sollicitudin cursus.</p>
-                    </div><!--//item-->
-                    <div class="item">
-                        <h3 class="question"><i class="fa fa-question-circle"></i>What is the ipsum dolor sit amet quam tortor?</h3>
-                        <p class="answer">Proin scelerisque magna ac eros aliquam aliquam id in lacus. Morbi quam tortor, consequat at orci non, vulputate volutpat libero. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean sagittis laoreet urna eu ornare.</p>
-                    </div><!--//item-->
-                    <div class="item">
-                        <h3 class="question"><i class="fa fa-question-circle"></i>What's the differences between ipsum and dolor sit amet?</h3>
-                        <p class="answer">Proin scelerisque magna ac eros aliquam aliquam id in lacus. Morbi quam tortor, consequat at orci non, vulputate volutpat libero. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean sagittis laoreet urna eu ornare. Aenean tempor, leo vel eleifend porttitor. Aenean tempor, leo vel eleifend porttitor, nibh libero ultricies est.</p>
-                    </div><!--//item-->
-                </div><!--//faq-col-->
-                <div class="faq-col col-md-6 col-sm-6 col-xs-12">
-                    <div class="item">
-                        <h3 class="question"><i class="fa fa-question-circle"></i>How does the morbi quam tortor work?</h3>
-                        <p class="answer">Proin scelerisque magna ac eros aliquam aliquam id in lacus. Morbi quam tortor, consequat at orci non, vulputate volutpat libero. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean sagittis laoreet urna eu ornare.Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean sagittis laoreet urna eu ornare. Aenean tempor, leo vel eleifend porttitor, nibh libero ultricies est, sit amet ultricies magna enim et turpis. Donec aliquam velit eu sollicitudin cursus.</p>
-                    </div><!--//item-->
-                    <div class="item">
-                        <h3 class="question"><i class="fa fa-question-circle"></i>Can I ipsum dolor sit amet nascetur ridiculus?</h3>
-                        <p class="answer">Proin scelerisque magna ac eros aliquam aliquam id in lacus. Morbi quam tortor, consequat at orci non, vulputate volutpat libero. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean sagittis laoreet urna eu ornare.</p>
-                    </div><!--//item-->
-                    <div class="item">
-                        <h3 class="question"><i class="fa fa-question-circle"></i>How can I proin scelerisque magna?</h3>
-                        <p class="answer">Aenean tempor, leo vel eleifend porttitor, nibh libero ultricies est, sit amet ultricies magna enim et turpis. Donec aliquam velit eu sollicitudin cursus.Proin scelerisque magna ac eros aliquam aliquam id in lacus. Morbi quam tortor, consequat at orci non, vulputate volutpat libero. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean sagittis laoreet urna eu ornare. </p>
-                    </div><!--//item-->
-                </div><!--//faq-col-->
-            </div><!--//row-->
-            <div class="more text-center">
-                <h4 class="title">More questions?</h4>
-                <a class="btn btn-lg btn-theme scrollto" href="#contact">Get in touch<i class="fa fa-arrow-circle-o-down"></i></a>
+                <h2 class="title text-center">选择OpenGL版还是Skia版?</h2>
+
+                <p>
+                    OpenGL版和Skia版 是UCMap的两个分支,拥有同样优越的性能和功能接口； 但两者有明显的侧重点。 如果您的应用更侧重传统的GIS领域和传统的GIS行业应用，建议您选择OpenGL版，如果您打算开发一款偏互联网型应用，建议您选择Skia版。
+                    这仅仅是个建议，具体请参阅下面的功能对比矩阵表:
+                </p>
+                <table class="table table-bordered">
+                    <thead>
+                        <th>特性对比</th>
+                        <th>OpenGL版</th>
+                        <th>Skia版</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>渲染引擎</td>
+                            <td>OpenGL</td>
+                            <td>Skia</td>
+                        </tr>
+                        <tr>
+                            <td>渲染方式</td>
+                            <td>异步多线程</td>
+                            <td>同步单线程</td>
+                        </tr>
+                        <tr>
+                            <td>矢量数据</td>
+                            <td>支持少量shp 叠加层</td>
+                            <td>支持GB级矢量叠加层</td>
+                        </tr>
+                        <tr>
+                            <td>栅格数据</td>
+                            <td>支持</td>
+                            <td>支持</td>
+                        </tr>
+                        <tr>
+                            <td>矢量瓦片</td>
+                            <td>支持</td>
+                            <td>不支持</td>
+                        </tr>
+                        <tr>
+                            <td>mbtiles瓦片</td>
+                            <td>支持</td>
+                            <td>支持</td>
+                        </tr>
+                        <tr>
+                            <td>OGC在线地图服务</td>
+                            <td>支持 WMS WMTS WFS</td>
+                            <td>支持 WMS WMTS WFS</td>
+                        </tr>
+                        <tr>
+                            <td>矢量数据查询</td>
+                            <td>支持</td>
+                            <td>支持</td>
+                        </tr>
+                        <tr>
+                            <td>坐标系</td>
+                            <td>支持任意坐标系</td>
+                            <td>支持任意坐标系</td>
+                        </tr>
+                        <tr>
+                            <td>投影变换</td>
+                            <td>支持</td>
+                            <td>支持</td>
+                        </tr>
+                        <tr>
+                            <td>浏览体验</td>
+                            <td>非常流畅的动画</td>
+                            <td>流畅</td>
+                        </tr>
+                        <tr>
+                            <td>2.5D模式</td>
+                            <td>支持</td>
+                            <td>不支持</td>
+                        </tr>
+                        <tr>
+                            <td>地图旋转</td>
+                            <td>不支持</td>
+                            <td>支持</td>
+                        </tr>
+                        <tr>
+                            <td>比例尺控件</td>
+                            <td>支持</td>
+                            <td>支持</td>
+                        </tr>
+                        <tr>
+                            <td>指北针控件</td>
+                            <td>支持</td>
+                            <td>支持</td>
+                        </tr>
+                        <tr>
+                            <td>多屏对比</td>
+                            <td>支持</td>
+                            <td>支持</td>
+                        </tr>
+                        <tr>
+                            <td>多图层叠加</td>
+                            <td>支持</td>
+                            <td>支持</td>
+                        </tr>
+                    </tbody>
+                </table>
+
             </div>
-        </div><!--//container-->
-    </section><!--//faq-->
-    
-    <!-- ******STORY****** --> 
+            <!--//row-->
+
+        </div>
+        <!--//container-->
+    </section>
+    <!--//faq-->
+
+    <!-- ******STORY****** -->
     <section id="story" class="story section has-pattern">
         <div class="container">
             <div class="row">
                 <div class="content col-md-6 col-sm-6 col-xs-12 text-center">
                     <h2 class="title">我们的团队</h2>
-                    <p>Aliquam euismod vehicula lacus, non congue ante pulvinar a. Nunc eu posuere risus, ut condimentum ante. Suspendisse at turpis sollicitudin odio congue lobortis vitae nec nisi. Nullam sodales at libero in lacinia. Nullam vel nibh pulvinar, interdum purus tristique, iaculis turpis. Integer imperdiet tincidunt erat vel gravida. Suspendisse tincidunt orci sed leo euismod, quis ultrices ipsum lobortis. Sed viverra dui et elit accumsan accumsan. Donec lorem turpis, iaculis ac fermentum nec, dignissim sed nisi. Nunc condimentum turpis arcu, eu aliquet lorem eleifend ut. Integer at lorem nec diam elementum convallis vel vel nulla.</p>
-                    <p>Nullam vel nibh pulvinar, interdum purus tristique, iaculis turpis. Integer imperdiet tincidunt erat vel gravida. eleifend ut. Integer at lorem nec diam elementum convallis vel vel nulla.</p>
-                </div><!--//content-->
+                    <p>跬步科技是一家致力于研发完全自主知识产权的移动应用技术公司,自2000 年成立以来,跬步科技连续十几年沉淀技术、投入研发,行成了一套性能卓越，完全自主知识产权的移动地图组件UCMap,其性能
+                        达到了同行优异水平。一直本着“以人为本，追求核心技术”的理念，与客户建立良好的合作关系，全程提供强有力的技术支持，为移动GIS在各行业的应用不懈努力。
+                    </p>
+                    
+                </div>
+                <!--//content-->
                 <div class="team col-md-5 col-sm-5 col-md-offset-1 col-sm-offset-1 col-xs-12">
                     <div class="row">
                         <div class="member col-md-6 text-center">
@@ -260,198 +346,422 @@
                             <p class="name">James Norton</p>
                             <p class="title">Lead Developer</p>
                             <ul class="connect list-inline">
-                                <li><a href="#" ><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#" ><i class="fa fa-linkedin"></i></a></li>
-                                <li class="row-end"><a href="#" ><i class="fa fa-github"></i></a></li>         
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                                </li>
+                                <li class="row-end">
+                                    <a href="#">
+                                        <i class="fa fa-github"></i>
+                                    </a>
+                                </li>
                             </ul>
-                        </div><!--//member-->
+                        </div>
+                        <!--//member-->
                         <div class="member col-md-6 text-center">
                             <img class="img-rounded" src="assets/images/team/member-2.png" alt="" />
                             <p class="name">Steve Thomson</p>
                             <p class="title">UI/UX Designer</p>
                             <ul class="connect list-inline">
-                                <li><a href="#" ><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#" ><i class="fa fa-linkedin"></i></a></li>
-                                <li class="row-end"><a href="#" ><i class="fa fa-dribbble"></i></a></li>         
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                                </li>
+                                <li class="row-end">
+                                    <a href="#">
+                                        <i class="fa fa-dribbble"></i>
+                                    </a>
+                                </li>
                             </ul>
-                        </div><!--//member-->
+                        </div>
+                        <!--//member-->
                     </div>
-                </div><!--//team-->
-            </div><!--//row-->
-        </div><!--//container-->
-    </section><!--//story-->
-    
-    <!-- ******TESTIMONIALS****** --> 
+                </div>
+                <!--//team-->
+            </div>
+            <!--//row-->
+        </div>
+        <!--//container-->
+    </section>
+    <!--//story-->
+
+    <!-- ******TESTIMONIALS****** -->
     <section id="testimonials" class="testimonials section">
         <div class="container">
             <div class="row">
-                <h2 class="title text-center">产品口碑</h2>
+                <h2 class="title text-center">应用案例</h2>
                 <div class="item col-md-4 col-sm-4">
                     <div class="quote-box">
                         <i class="fa fa-quote-left"></i>
                         <blockquote class="quote">
                             <a href="#">@Delta</a> I love this #app. Lorem ipsum dolor sit amet, consectetur adipiscing elit. #Mobile
-                        </blockquote><!--//quote-->
-                    </div><!--//quote-box-->
+                        </blockquote>
+                        <!--//quote-->
+                    </div>
+                    <!--//quote-box-->
                     <div class="people row">
-                        <img class="img-rounded user-pic col-md-5 col-sm-5 col-xs-12 col-md-offset-1 col-sm-offset-1" src="assets/images/people/people-1.png" alt="" />
+                        <img class="img-rounded user-pic col-md-5 col-sm-5 col-xs-12 col-md-offset-1 col-sm-offset-1" src="assets/images/people/people-1.png"
+                            alt="" />
                         <p class="details text-center pull-left">
                             <span class="name">Christine Heal</span>
                             <span class="title">Bristol, UK</span>
-                        </p>                        
-                    </div><!--//people-->
-                </div><!--//item-->
+                        </p>
+                    </div>
+                    <!--//people-->
+                </div>
+                <!--//item-->
                 <div class="item col-md-4 col-sm-4">
                     <div class="quote-box">
                         <i class="fa fa-quote-left"></i>
                         <blockquote class="quote">
-                            <a href="#">@Delta</a> consectetur adipiscing elit. #DeltaApp Sed bibendum velit quis nunc laoreet dictum id nisl id lacinia. 
-                        </blockquote><!--//quote-->
-                    </div><!--//quote-box-->
+                            <a href="#">@Delta</a> consectetur adipiscing elit. #DeltaApp Sed bibendum velit quis nunc laoreet dictum
+                            id nisl id lacinia.
+                        </blockquote>
+                        <!--//quote-->
+                    </div>
+                    <!--//quote-box-->
                     <div class="people row">
-                        <img class="img-rounded user-pic col-md-5 col-sm-5 col-xs-12 col-md-offset-1 col-sm-offset-1" src="assets/images/people/people-2.png" alt="" />
+                        <img class="img-rounded user-pic col-md-5 col-sm-5 col-xs-12 col-md-offset-1 col-sm-offset-1" src="assets/images/people/people-2.png"
+                            alt="" />
                         <p class="details text-center pull-left">
                             <span class="name">Ben Rousseau</span>
                             <span class="title">Paris, France</span>
-                        </p>                        
-                    </div><!--//people-->
-                </div><!--//item-->
+                        </p>
+                    </div>
+                    <!--//people-->
+                </div>
+                <!--//item-->
                 <div class="item col-md-4 col-sm-4">
                     <div class="quote-box">
                         <i class="fa fa-quote-left"></i>
                         <blockquote class="quote">
-                        I find DeltaApp very useful - Lorem ipsum dolor sit amet, check it out
-                        </blockquote><!--//quote-->
-                    </div><!--//quote-box-->
+                            I find DeltaApp very useful - Lorem ipsum dolor sit amet, check it out
+                        </blockquote>
+                        <!--//quote-->
+                    </div>
+                    <!--//quote-box-->
                     <div class="people row">
-                        <img class="img-rounded user-pic col-md-5 col-sm-5 col-xs-12 col-md-offset-1 col-sm-offset-1" src="assets/images/people/people-3.png" alt="" />
+                        <img class="img-rounded user-pic col-md-5 col-sm-5 col-xs-12 col-md-offset-1 col-sm-offset-1" src="assets/images/people/people-3.png"
+                            alt="" />
                         <p class="details text-center pull-left">
                             <span class="name">Mike Chan</span>
                             <span class="title">Hongkong, China</span>
-                        </p>                        
-                    </div><!--//people-->
-                </div><!--//item-->
-            </div><!--//row-->
-            <div class="row">
-                <div class="item col-md-4 col-sm-4 col-md-offset-2 col-sm-offset-2">
-                    <div class="quote-box">
-                        <i class="fa fa-quote-left"></i>
-                        <blockquote class="quote">
-                         DeltaApp is fab lorem ipsum dolor sit amet proin sagittis sodales pulvinar Mauris id arcu eget augue condimentum euismod
-                        </blockquote><!--//quote-->
-                    </div><!--//quote-box-->
-                    <div class="people row">
-                        <img class="img-rounded user-pic col-md-5 col-sm-5 col-xs-12 col-md-offset-1 col-sm-offset-1" src="assets/images/people/people-4.png" alt="" />
-                        <p class="details text-center pull-left">
-                            <span class="name">Annie Lee</span>
-                            <span class="title">Berlin, Germany</span>
-                        </p>                        
-                    </div><!--//people-->
-                </div><!--//item-->
-                <div class="item col-md-4 col-sm-4">
-                    <div class="quote-box">
-                        <i class="fa fa-quote-left"></i>
-                        <blockquote class="quote">
-                        DeltaApp is a great dolor sit amet proin sagittis sodales pulvinar vestibulum porta dolor molestie semper.
-                        </blockquote><!--//quote-->
-                    </div><!--//quote-box-->
-                    <div class="people row">
-                        <img class="img-rounded user-pic col-md-5 col-sm-5 col-xs-12 col-md-offset-1 col-sm-offset-1" src="assets/images/people/people-5.png" alt="" />
-                        <p class="details text-center pull-left">
-                            <span class="name">Adam Gordon</span>
-                            <span class="title">London, UK</span>
-                        </p>                        
-                    </div><!--//people-->
-                </div><!--//item-->
+                        </p>
+                    </div>
+                    <!--//people-->
+                </div>
+                <!--//item-->
             </div>
+            <!--//row-->
+            
             <div class="press row text-center">
                 <h3 class="note">他们是我们的合作客户</h3>
                 <ul class="col-md-12 list-inline">
-                    <li><a href="#"><img class="img-responsive" src="assets/images/press/press-1.png" alt="" /></a></li>
-                    <li><a href="#"><img class="img-responsive" src="assets/images/press/press-2.png" alt="" /></a></li>
-                    <li><a href="#"><img class="img-responsive" src="assets/images/press/press-3.png" alt="" /></a></li>
-                    <li><a href="#"><img class="img-responsive" src="assets/images/press/press-4.png" alt="" /></a></li>
-                    <li class="last"><a href="#"><img class="img-responsive" src="assets/images/press/press-5.png" alt="" /></a></li>
+                    <li>
+                        <a href="#">
+                            <img class="img-responsive" src="assets/images/press/press-1.png" alt="" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img class="img-responsive" src="assets/images/press/press-2.png" alt="" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img class="img-responsive" src="assets/images/press/press-3.png" alt="" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img class="img-responsive" src="assets/images/press/press-4.png" alt="" />
+                        </a>
+                    </li>
+                    <li class="last">
+                        <a href="#">
+                            <img class="img-responsive" src="assets/images/press/press-5.png" alt="" />
+                        </a>
+                    </li>
                 </ul>
-            </div><!--//row-->
-        </div><!--//container-->
-    </section><!--//Testimonials-->
-    
-    <!-- ******Pricing****** --> 
+            </div>
+            <!--//row-->
+        </div>
+        <!--//container-->
+    </section>
+    <!--//Testimonials-->
+
+    <!-- ******Pricing****** -->
     <section id="pricing" class="pricing section has-pattern">
         <div class="container">
-             <div class="price-cols row">
-                <h2 class="title text-center">产品配置及价格</h2>
+            <div class="price-cols row">
+                <h2 class="title text-center">Skia版产品配置及价格</h2>
                 <div class="items-wrapper col-md-10 col-sm-12 col-xs-12 col-md-offset-1 col-sm-offset-0 col-xs-offset-0">
-                    
+
                     <div class="item price-1 col-md-4 col-sm-4 col-xs-12 text-center">
                         <div class="item-inner">
                             <div class="heading">
-                            <h3 class="title">OpenGIS</h3>
-                                <p class="price-figure"><span class="price-figure-inner"><span class="currency">$</span><span class="number">5</span><br /><span class="unit"> per month</span></span></p>
+                                <h3 class="title">基础版</h3>
+                                <p class="price-figure">
+                                    <span class="price-figure-inner">
+                                        <span class="currency">¥</span>
+                                        <span class="number">0</span>
+                                        <br />
+                                        <span class="unit"> 试用</span>
+                                    </span>
+                                </p>
                             </div>
                             <div class="content">
                                 <ul class="list-unstyled feature-list">
-                                    <li><i class="fa fa-check"></i>在线地图服务支持</li>
-                                    <li><i class="fa fa-check"></i>离线矢量支持</li>
-                                    <li><i class="fa fa-check"></i>大数据显示特性</li>
-                                    <li><i class="fa fa-times"></i>Free update</li>
-                                    <li ><i class="fa fa-check"></i>二次开发技术支持</li>
+                                    <li>
+                                        <i class="fa fa-check"></i>离线地图</li>
+                                    <li>
+                                        <i class="fa fa-check"></i>在线地图服务</li>
+                                    <li>
+                                        <i class="fa fa-check"></i>矢量编辑与查询</li>
+                                    <li>
+                                        <i class="fa fa-check"></i>空间分析扩展模块</li>
+                                    <li>
+                                        <i class="fa fa-times"></i>有水印</li>
+                                    <li>
+                                        <i class="fa fa-times"></i>数据量限制200M</li>
                                 </ul>
-                                <a class="btn btn-theme btn-block" href="#">购买</a>
-   
-                            </div><!--//content-->
-                        </div><!--//item-inner-->
-                    </div><!--//item--> 
-                    
+                                <a class="btn btn-theme btn-block" href="#">免费下载</a>
+
+                            </div>
+                            <!--//content-->
+                        </div>
+                        <!--//item-inner-->
+                    </div>
+                    <!--//item-->
+
                     <div class="item price-2 col-md-4 col-sm-4 col-xs-12 text-center best-buy">
                         <div class="item-inner">
                             <div class="heading">
-                            <h3 class="title">基础版</h3>
-                                <p class="price-figure"><span class="price-figure-inner"><span class="currency">$</span><span class="number">10</span><br /><span class="unit">per month</span></span></p>
+                                <h3 class="title">标准版</h3>
+                                <p class="price-figure">
+                                    <span class="price-figure-inner">
+                                        <span class="currency">¥</span>
+                                        <span class="number">98,000</span>
+                                        <br />
+                                        <span class="unit">永久</span>
+                                    </span>
+                                </p>
                             </div>
                             <div class="content">
                                 <ul class="list-unstyled feature-list">
-                                    <li><i class="fa fa-check"></i>在线地图服务支持</li>
-                                    <li><i class="fa fa-check"></i>离线矢量支持</li>
-                                    <li><i class="fa fa-check"></i>Email priority support</li>
-                                    <li><i class="fa fa-check"></i>Free update</li>
-                                    <li ><i class="fa fa-check"></i>二次开发技术支持</li>
-                                    
+                                    <li>
+                                        <i class="fa fa-check"></i>离线地图</li>
+                                    <li>
+                                        <i class="fa fa-check"></i>在线地图服务</li>
+                                    <li>
+                                        <i class="fa fa-check"></i>矢量编辑与查询</li>
+                                    <li>
+                                        <i class="fa fa-times"></i>空间分析扩展模块</li>
+                                    <li>
+                                        <i class="fa fa-check"></i>无水印</li>
+                                    <li>
+                                        <i class="fa fa-check"></i>数据量无限制</li>
+
                                 </ul>
-                                <a class="btn btn-theme btn-block" href="#">购买</a>
-                            </div><!--//content-->
+                                <a class="btn btn-theme btn-block" href="#">购买咨询</a>
+                            </div>
+                            <!--//content-->
                             <div class="ribbon">
                                 <div class="text">推荐</div>
-                            </div><!--//ribbon-->
-                        </div><!--//item-inner-->
-                    </div><!--//item-->  
-                    
+                            </div>
+                            <!--//ribbon-->
+                        </div>
+                        <!--//item-inner-->
+                    </div>
+                    <!--//item-->
+
                     <div class="item price-3 col-md-4 col-sm-4 col-xs-12 text-center">
                         <div class="item-inner">
                             <div class="heading">
-                                <h3 class="title">增强版</h3>
-                                <p class="price-figure"><span class="price-figure-inner"><span class="currency">$</span><span class="number">25</span><br /><span class="unit">per month</span></span></p>
+                                <h3 class="title">增强定制版</h3>
+                                <p class="price-figure">
+                                    <span class="price-figure-inner">
+                                        <span class="currency">¥</span>
+                                        <span class="number">98,000+</span>
+                                        <br />
+                                        <span class="unit">永久</span>
+                                    </span>
+                                </p>
                             </div>
                             <div class="content">
                                 <ul class="list-unstyled feature-list">
-                                    <li><i class="fa fa-check"></i>更多在线地图支持</li>
-                                    <li><i class="fa fa-check"></i>GB级离线矢量支持</li>
-                                    <li><i class="fa fa-check"></i>Email priority support</li>
-                                    <li><i class="fa fa-check"></i>Free update</li>
-                                    <li ><i class="fa fa-check"></i>二次开发技术支持</li>                         
+                                    <li>
+                                        <i class="fa fa-check"></i>离线地图</li>
+                                    <li>
+                                        <i class="fa fa-check"></i>在线地图服务</li>
+                                    <li>
+                                        <i class="fa fa-check"></i>矢量编辑与查询</li>
+                                    <li>
+                                        <i class="fa fa-check"></i>空间分析扩展模块</li>
+                                    <li>
+                                        <i class="fa fa-check"></i>无水印</li>
+                                    <li>
+                                        <i class="fa fa-check"></i>数据量无限制</li>
                                 </ul>
-                                <a class="btn btn-theme btn-block" href="#">购买</a>
-                                
-                            </div><!--//content-->
-                        </div><!--//item-inner-->
-                    </div><!--//item-->  
-                </div><!--//items-wrapper-->                   
-            </div><!--//row-->
-        </div><!--//container-->
-    </section><!--//pricing-->
-    
-    <!-- ******CONTACT****** --> 
+                                <a class="btn btn-theme btn-block" href="#">购买咨询</a>
+
+                            </div>
+                            <!--//content-->
+                        </div>
+                        <!--//item-inner-->
+                    </div>
+                    <!--//item-->
+                </div>
+                <!--//items-wrapper-->
+            </div>
+            <!--//row-->
+        </div>
+        <!--//container-->
+    </section>
+    <!--//pricing-->
+
+    <section id="pricing2" class="pricing section has-pattern">
+        <div class="container">
+            <div class="price-cols row">
+                <h2 class="title text-center">OpenGL版产品配置及价格</h2>
+                <div class="items-wrapper col-md-10 col-sm-12 col-xs-12 col-md-offset-1 col-sm-offset-0 col-xs-offset-0">
+
+                    <div class="item price-1 col-md-4 col-sm-4 col-xs-12 text-center">
+                        <div class="item-inner">
+                            <div class="heading">
+                                <h3 class="title">基础版</h3>
+                                <p class="price-figure">
+                                    <span class="price-figure-inner">
+                                        <span class="currency">¥</span>
+                                        <span class="number">0</span>
+                                        <br />
+                                        <span class="unit"> 试用</span>
+                                    </span>
+                                </p>
+                            </div>
+                            <div class="content">
+                                <ul class="list-unstyled feature-list">
+                                    <li>
+                                        <i class="fa fa-check"></i>离线地图</li>
+                                    <li>
+                                        <i class="fa fa-check"></i>在线地图服务</li>
+                                    <li>
+                                        <i class="fa fa-check"></i>矢量编辑与查询</li>
+                                    <li>
+                                        <i class="fa fa-check"></i>空间分析扩展模块</li>
+                                    <li>
+                                        <i class="fa fa-times"></i>有水印</li>
+                                    <li>
+                                        <i class="fa fa-times"></i>数据量限制200M</li>
+                                </ul>
+                                <a class="btn btn-theme btn-block" href="#">免费下载</a>
+
+                            </div>
+                            <!--//content-->
+                        </div>
+                        <!--//item-inner-->
+                    </div>
+                    <!--//item-->
+
+                    <div class="item price-2 col-md-4 col-sm-4 col-xs-12 text-center best-buy">
+                        <div class="item-inner">
+                            <div class="heading">
+                                <h3 class="title">标准版</h3>
+                                <p class="price-figure">
+                                    <span class="price-figure-inner">
+                                        <span class="currency">¥</span>
+                                        <span class="number">109,000</span>
+                                        <br />
+                                        <span class="unit">永久</span>
+                                    </span>
+                                </p>
+                            </div>
+                            <div class="content">
+                                <ul class="list-unstyled feature-list">
+                                    <li>
+                                        <i class="fa fa-check"></i>离线地图</li>
+                                    <li>
+                                        <i class="fa fa-check"></i>在线地图服务</li>
+                                    <li>
+                                        <i class="fa fa-check"></i>矢量编辑与查询</li>
+                                    <li>
+                                        <i class="fa fa-times"></i>空间分析扩展模块</li>
+                                    <li>
+                                        <i class="fa fa-check"></i>无水印</li>
+                                    <li>
+                                        <i class="fa fa-check"></i>数据量无限制</li>
+
+                                </ul>
+                                <a class="btn btn-theme btn-block" href="#">购买咨询</a>
+                            </div>
+                            <!--//content-->
+                            <div class="ribbon">
+                                <div class="text">推荐</div>
+                            </div>
+                            <!--//ribbon-->
+                        </div>
+                        <!--//item-inner-->
+                    </div>
+                    <!--//item-->
+
+                    <div class="item price-3 col-md-4 col-sm-4 col-xs-12 text-center">
+                        <div class="item-inner">
+                            <div class="heading">
+                                <h3 class="title">增强定制版</h3>
+                                <p class="price-figure">
+                                    <span class="price-figure-inner">
+                                        <span class="currency">¥</span>
+                                        <span class="number">109,000+</span>
+                                        <br />
+                                        <span class="unit">永久</span>
+                                    </span>
+                                </p>
+                            </div>
+                            <div class="content">
+                                <ul class="list-unstyled feature-list">
+                                    <li>
+                                        <i class="fa fa-check"></i>离线地图</li>
+                                    <li>
+                                        <i class="fa fa-check"></i>在线地图服务</li>
+                                    <li>
+                                        <i class="fa fa-check"></i>矢量编辑与查询</li>
+                                    <li>
+                                        <i class="fa fa-check"></i>空间分析扩展模块</li>
+                                    <li>
+                                        <i class="fa fa-check"></i>无水印</li>
+                                    <li>
+                                        <i class="fa fa-check"></i>数据量无限制</li>
+                                </ul>
+                                <a class="btn btn-theme btn-block" href="#">购买咨询</a>
+
+                            </div>
+                            <!--//content-->
+                        </div>
+                        <!--//item-inner-->
+                    </div>
+                    <!--//item-->
+                </div>
+                <!--//items-wrapper-->
+            </div>
+            <!--//row-->
+        </div>
+        <!--//container-->
+    </section>
+    <!--//pricing-->
+
+    <!-- ******CONTACT****** -->
     <section id="contact" class="contact section has-pattern">
         <div class="container">
             <div class="row text-center">
@@ -459,30 +769,36 @@
                 <div class="intro col-md-6 col-sm-12 col-xs-12 col-md-offset-3">
                     <p>如果您有商业合作需求或者技术问题,我们欢迎您随时联系我们,谢谢合作！</p>
                     <ul class="list-unstyled contact-details">
-                        <li><i class="fa fa-envelope"></i><a href="mailto:hello@website.com">hello@website.com</a></li>
-                        <li><i class="fa fa-phone-square"></i>0800 123 456</li>
+                        <li>
+                            <i class="fa fa-envelope"></i>
+                            <a href="mailto:hello@website.com">creable@163.com</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-phone-square"></i>18651641266</li>
+                        <li>
+                            <i class="fa fa-qq"></i>QQ群：543201967</li>
+                        <li>
+                            <i class="fa fa-map-marker"></i>南京市青岛路南京大学科技创业园</li>
+
                     </ul>
                 </div>
-            </div><!--//row-->
-            
-            <div class="text-center">
-                 <ul class="social-icons list-inline">
-                    <li><a href="#" ><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#" ><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#" ><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="#" ><i class="fa fa-google-plus"></i></a></li>                  
-                </ul><!--//social-icons-->
-            </div><!--//row-->
-        </div><!--//container-->
-    </section><!--//contact-->  
-      
-    <!-- ******FOOTER****** --> 
+            </div>
+            <!--//row-->
+
+
+        </div>
+        <!--//container-->
+    </section>
+    <!--//contact-->
+
+    <!-- ******FOOTER****** -->
     <footer class="footer">
         <div class="container text-center">
             <small class="copyright ">Copyright &copy; 2018.南京跬步科技有限公司 All rights reserved</small>
-            
+
         </div>
-    </footer><!--//footer-->
+    </footer>
+    <!--//footer-->
 
     <!-- Feature Modal -->
     <div class="modal modal-feature" id="feature-modal-1" tabindex="-1" role="dialog" aria-labelledby="featureModalLabel-1" aria-hidden="true">
@@ -492,51 +808,70 @@
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                     <h4 id="featureModalLabel-1" class="modal-title text-center">App Feature and Benefit</h4>
                 </div>
-                <div class="modal-body"> 
-                    <div class="row">    
+                <div class="modal-body">
+                    <div class="row">
                         <figure class="figure col-md-6 col-sm-12 col-xs-12">
                             <img class="img-responsive img-rounded" src="assets/images/features/feature-figure-1.png" alt="" />
                             <figcaption class="caption">Figure caption goes here </figcaption>
-                        </figure> 
-                        <div class="content col-md-6 col-sm-12 col-xs-12">           
-                            <p>You can use the modal to explain one of your app's features/benefits in details. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
-                            <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. </p>
+                        </figure>
+                        <div class="content col-md-6 col-sm-12 col-xs-12">
+                            <p>You can use the modal to explain one of your app's features/benefits in details. Lorem ipsum
+                                dolor sit amet, consectetuer adipiscing elit. </p>
+                            <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis
+                                pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. </p>
                             <ul class="list-unstyled">
-                                <li><i class="fa fa-star"></i>Lorem ipsum dolor sit ame</li>
-                                <li><i class="fa fa-star"></i>Curabitur elit elit</li>
-                                <li><i class="fa fa-star"></i>Nunc tincidunt ipsum a risus</li>
+                                <li>
+                                    <i class="fa fa-star"></i>Lorem ipsum dolor sit ame</li>
+                                <li>
+                                    <i class="fa fa-star"></i>Curabitur elit elit</li>
+                                <li>
+                                    <i class="fa fa-star"></i>Nunc tincidunt ipsum a risus</li>
                             </ul>
-                            <p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+                            <p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+                                enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
                             <blockquote class="quote">
-                                <p><i class="fa fa-quote-left"></i>I love this magna pellentesque in magnis gravida sit augue felis vehicula vestibulum semper penatibus justo ornare semper Gravida felis platea arcu mus non. Montes at posuere. Natoque.</p>
-                                <p class="people"><span class="name">Adam Lee</span><br><span class="title">Developer, AppHunt</span></p>
+                                <p>
+                                    <i class="fa fa-quote-left"></i>I love this magna pellentesque in magnis gravida sit augue felis vehicula vestibulum
+                                    semper penatibus justo ornare semper Gravida felis platea arcu mus non. Montes at posuere.
+                                    Natoque.
+                                </p>
+                                <p class="people">
+                                    <span class="name">Adam Lee</span>
+                                    <br>
+                                    <span class="title">Developer, AppHunt</span>
+                                </p>
                             </blockquote>
-                        </div><!--//content-->
-                    </div><!--//row-->
-                </div><!--//modal-body-->
-            </div><!--//modal-content-->
-        </div><!--//modal-dialog-->
-    </div><!--//modal-->
-    
+                        </div>
+                        <!--//content-->
+                    </div>
+                    <!--//row-->
+                </div>
+                <!--//modal-body-->
+            </div>
+            <!--//modal-content-->
+        </div>
+        <!--//modal-dialog-->
+    </div>
+    <!--//modal-->
+
     <!-- *****CONFIGURE STYLE (Remove on production site)****** -->
-    
-     
-    <!-- Javascript -->          
+
+
+    <!-- Javascript -->
     <script type="text/javascript" src="assets/plugins/jquery-1.12.3.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/isMobile/isMobile.min.js"></script>       
-    <script type="text/javascript" src="assets/plugins/jquery.easing.1.3.js"></script>   
-    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>     
+    <script type="text/javascript" src="assets/plugins/isMobile/isMobile.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="assets/plugins/jquery-inview/jquery.inview.min.js"></script>
     <script type="text/javascript" src="assets/plugins/FitVids/jquery.fitvids.js"></script>
-    <script type="text/javascript" src="assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script>    
+    <script type="text/javascript" src="assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script>
     <script type="text/javascript" src="assets/plugins/jquery-placeholder/jquery.placeholder.js"></script>
     <script type="text/javascript" src="assets/plugins/flexslider/jquery.flexslider-min.js"></script>
     <script type="text/javascript" src="assets/plugins/jquery-match-height/jquery.matchHeight-min.js"></script>
     <script type="text/javascript" src="assets/js/main.js"></script>
-    <!--[if !IE]>--> 
-    <script type="text/javascript" src="assets/js/animations.js"></script> 
-    <!--<![endif]-->         
+    <!--[if !IE]>-->
+    <script type="text/javascript" src="assets/js/animations.js"></script>
+    <!--<![endif]-->
 </body>
-</html> 
 
-
+</html>
